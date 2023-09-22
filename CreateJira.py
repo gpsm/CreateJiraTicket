@@ -22,7 +22,7 @@ def jira_auth_and_issue_creator():
 
 
 
-        issue=jira.create_issue(project={'key': 'PDDEV'},
+        issue=jira.create_issue(project={'key': 'PROJNAME'},
 
                                 issuetype={'name': 'Bug'},
 
